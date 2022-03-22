@@ -12,7 +12,7 @@ nav{
     text-align: right;
 }
 
-h1{
+#logo{
     font-family: 'Press Start 2P', sans-serif;
     color: #fff;
     text-shadow: 5px 5px 0px #000;
@@ -29,7 +29,6 @@ a{
     margin-right: 30px;
 
 } 
-
 a::before{
     content: '';
     background-color: #FF6978;
@@ -38,7 +37,9 @@ a::before{
     margin-right: 10px;
 }
 
-#button{
+
+
+.button{
     display: inline-block;
     background-color: #FF6978;
     box-shadow: 5px 5px 0px black;
@@ -46,9 +47,22 @@ a::before{
     margin-right: 0px;
     transition: transform 100ms linear, opacity 200ms ease-in-out;
 }
-
-#button:hover{
+.button:hover{
     transform: scale(1.08);
     
 }
+
+section{
+    margin-top:116px;
+}
+
+#buttons{
+    display: flex;
+    margin-top: 38px;
+    margin-left: 181px;
+}
+#buttons>.button{
+    margin-right: 112px;
+}
+
 
