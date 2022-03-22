@@ -44,7 +44,7 @@ a::before{
     box-shadow: 5px 5px 0px black;
     padding: 18px 20px;
     margin-right: 0px;
-    transition: transform 100ms linear;
+    transition: transform 100ms linear, opacity 200ms ease-in-out;
 }
 
 #button:hover{
